@@ -3,7 +3,6 @@
 void testFunction()
 {
     while (1) {
-        readValue = s->read();
         thread_sleep_for(UPDATE_RATE_MS);
     }
 }
